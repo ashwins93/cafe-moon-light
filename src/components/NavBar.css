@@ -1,0 +1,21 @@
+.NavBar {
+  padding: 3rem 0;
+  border-top: 1px solid var(--grey);
+  border-bottom: 2px solid var(--grey);
+}
+
+.NavBar .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.NavBar a {
+  text-decoration: none;
+  color: #777;
+  font-size: 1.4rem;
+}
+
+.NavBar a.active,
+.NavBar a:hover {
+  color: var(--primary);
+}

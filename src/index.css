@@ -4,15 +4,6 @@
   box-sizing: inherit;
 }
 
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-size: 1.6rem;
-  box-sizing: border-box;
-}
-
 :root {
   --white: #fafbfa;
   --primary: #08a951;
@@ -21,4 +12,20 @@ body {
   --primary-dark: #668a45;
   --secondary:#9D622D;
   --secondary-dark: #56462D;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Lato";
 }

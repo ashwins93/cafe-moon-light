@@ -1,0 +1,26 @@
+.SearchBar {
+  padding: 3rem 0;
+  padding-top: 5rem;
+}
+
+.SearchBar input {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 55rem;
+  border: none;
+  border-bottom: 3px solid var(--grey);
+  border-radius: 4px;
+  padding: 1.5rem;
+  font-size: inherit;
+  font-family: "Font Awesome 5 Free", "Open Sans", sans-serif;
+  color: inherit;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  transition: all .3s;
+}
+
+.SearchBar input:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}

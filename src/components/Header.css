@@ -1,0 +1,21 @@
+.bg-wrapper {
+  background-image: url(../assets/header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  flex-grow: 1;
+}
+
+.Header h1 {
+  text-transform: uppercase;
+  color: var(--primary);
+  letter-spacing: 1px;
+  padding: 10rem 0;
+}
+
+.Header .container {
+  display: flex;
+}
+
+.Header {
+  background-color: #fff;
+}
