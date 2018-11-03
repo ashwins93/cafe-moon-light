@@ -1,0 +1,9 @@
+.DishList {
+  padding: 8rem 0;
+}
+
+.DishList .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, calc(33.333% - 5rem));
+  grid-gap: 5rem;
+}
