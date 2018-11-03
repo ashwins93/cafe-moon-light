@@ -1,0 +1,25 @@
+.NavBar__links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3rem 0;
+}
+
+.NavBar__links a {
+  color: var(--grey);
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.NavBar__links a:hover {
+  color: var(--primary);
+}
+
+.NavBar__links a.active {
+  color: var(--primary);
+}
+
+.NavBar {
+  list-style-type: none;
+  border-top: 1px solid var(--grey);
+  border-bottom: 2px solid var(--grey);
+}
