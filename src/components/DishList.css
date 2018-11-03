@@ -6,4 +6,20 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, calc(33.333% - 5rem));
   grid-gap: 5rem;
+  justify-content: center;
+}
+
+
+@media (max-width: 900px) {
+  .DishList .container {
+    grid-template-columns: repeat(auto-fill, calc(50% - 3rem));
+    grid-gap: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .DishList .container {
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
 }

@@ -1,0 +1,31 @@
+.SearchBar {
+  margin-top: 5rem;
+}
+
+.SearchBar input {
+  width: 100%;
+  max-width: 65rem;
+  margin: 0 auto;
+  display: block;
+  padding: 1rem 1.5rem;
+  background-color: #fff;
+  border: none;
+  border-bottom: 3px solid var(--grey);
+  border-radius: 4px;
+  color: inherit;
+  font-size: inherit;
+  font-family: "Font Awesome 5 Free", "Open Sans", sans-serif;
+  transition: all .3s;
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.05);
+}
+
+.SearchBar input:focus,
+.SearchBar input:active {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.05);
+}
+
+.SearchBar input::placeholder {
+  color: #aaa;
+}
