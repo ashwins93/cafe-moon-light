@@ -1,3 +1,7 @@
+.Header {
+  background-color: #fff;
+}
+
 .Header__bg-heading {
   display: flex;
 }
